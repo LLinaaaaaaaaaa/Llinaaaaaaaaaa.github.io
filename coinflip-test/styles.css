@@ -8,16 +8,17 @@ button {
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
-    color: white;
+    color: white; 
     background-color: #333333; 
-    border: 1px solid white; 
+    border: none; 
 }
 #coin {
     width: 100px;
     height: 100px;
-    background-image: url('https://upload.wikimedia.org/wikipedia/commons/2/25/1euro-obverse.png');
-    background-size: cover;
+    background-color: #333333;
+    border-radius: 50%;
     margin: 20px auto;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.8);
     transition: transform 1s;
 }
 #coin.heads {
@@ -29,4 +30,20 @@ button {
 #selection {
     margin: 20px auto;
     width: 200px;
+    display: flex;
+    justify-content: space-around;
+}
+input[type="radio"] {
+    display: none;
+}
+label {
+    cursor: pointer;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #555555;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+input[type="radio"]:checked + label {
+    background-color: #777777; 
 }
