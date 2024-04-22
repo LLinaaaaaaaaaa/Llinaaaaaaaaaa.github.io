@@ -15,22 +15,13 @@ button {
     border: none;
     border-radius: 5px;
     margin-top: 10px;
-    box-shadow: 0px 0px 5px rgba(255, 255, 255, 0.5); /* Add shadow */
-}
-button:hover {
-    background-color: #777777;
+    box-shadow: 0px 0px 5px rgba(255, 255, 255, 0.5);
 }
 button.spin {
-    padding: 15px 40px;
-    font-size: 20px;
-    background-color: #4CAF50;
-    color: white;
-    border-radius: 25px;
-    border: none;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+    background-color: #777777;
 }
 button.spin:hover {
-    background-color: #45a049;
+    background-color: #999999;
 }
 #coin {
     width: 100px;
@@ -66,6 +57,9 @@ label {
 }
 input[type="radio"]:checked + label {
     background-color: #777777;
-    color: #333333; /* Change text color for better contrast */
-    font-weight: bold; /* Make text bold to indicate selection */
+    color: #333333;
+    font-weight: bold;
+}
+input[type="radio"]:checked + label:hover {
+    background-color: #999999;
 }
