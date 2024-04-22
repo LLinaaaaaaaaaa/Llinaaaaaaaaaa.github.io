@@ -13,9 +13,8 @@ button {
     color: white;
     background-color: #555555;
     border: none;
-    outline: none;
     border-radius: 5px;
-    transition: background-color 0.3s;
+    margin-top: 10px;
 }
 button:hover {
     background-color: #777777;
@@ -54,7 +53,4 @@ label {
 }
 input[type="radio"]:checked + label {
     background-color: #777777;
-}
-#spinButton {
-    margin-top: 20px;
 }
