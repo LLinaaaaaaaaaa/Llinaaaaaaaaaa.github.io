@@ -1,10 +1,3 @@
-.purple-border {
-    font-size: 24px;
-    border: 2px solid #C724B1; 
-    padding: 5px 10px; 
-    display: inline-block;
-}
-
 .gif-container {
     position: fixed;
     top: 0;
@@ -87,10 +80,10 @@ nav ul li a {
 }
 
 .social-icon {
-    font-size: 24px;
+    font-size: 48px;
     color: white;
-    margin-right: 5px;
-    margin-left: 5px;
+    margin-right: 10px;
+    margin-left: 10px;
 }
 
 .fas {
