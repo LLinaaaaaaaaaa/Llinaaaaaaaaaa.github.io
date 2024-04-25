@@ -87,7 +87,10 @@ nav ul li a {
 }
 
 .fas {
-    font-size: 24px;
+    font-size: 48px;
+    color: white;
+    margin-right: 10px;
+    margin-left: 10px;
 }
 
 footer {
